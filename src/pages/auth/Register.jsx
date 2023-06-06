@@ -10,7 +10,7 @@ import {
 import { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import { AuthContext } from '../../context/authContext'
+import { AuthContext } from '../../context/AuthContext'
 
 export const Register = () => {
   const { registerUser } = useContext(AuthContext)
