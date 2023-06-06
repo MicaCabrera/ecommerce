@@ -2,7 +2,7 @@ import { Box, Heading, HStack, Link, SimpleGrid } from '@chakra-ui/react'
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { AuthContext } from '../context/authContext'
+import { AuthContext } from '../context/AuthContext'
 import { CartDrawer } from './cart/CartDrawer'
 
 export const Nav = () => {
